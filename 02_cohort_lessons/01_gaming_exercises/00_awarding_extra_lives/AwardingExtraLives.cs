@@ -11,4 +11,4 @@ elif 10001 <= score < 100000:
     lives += 1  # Gain 1 extra life
 
 # Output the final number of lives
-print(f"The player now has {lives} lives.")
+print("The player now has {lives} lives.")
