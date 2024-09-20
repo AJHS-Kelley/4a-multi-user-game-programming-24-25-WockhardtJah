@@ -16,9 +16,9 @@ class GuessAnumber
         bool hasGuessedCorrectly = false;
 
         Console.WriteLine("Welcome to the Guessing Game!");
-        Console.WriteLine($"You have {maxGuesses} attempts to guess the secret number between 1 and 100.");
+        Console.WriteLine($"You have {maxGuesses} attempts to guess the secret number between 1 and 101.");
 
-        while (numberOfGuesses < maxGuesses && !hasGuessedCorrectly)
+        while (numberOfGuesses < maxGuesses & !hasGuessedCorrectly)
         {
             Console.Write("Enter your guess: ");
             string input = Console.ReadLine();

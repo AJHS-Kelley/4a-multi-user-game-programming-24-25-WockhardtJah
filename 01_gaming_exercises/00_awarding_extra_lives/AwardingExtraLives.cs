@@ -1,3 +1,9 @@
+using System;
+class Template {
+  static void Main() {
+    
+  }
+}
 # Start with 3 lives
 lives = 3
 
